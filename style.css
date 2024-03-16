@@ -133,7 +133,7 @@ section {
     border: 1px solid white;
     border-radius: 30px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: box-shadow 0.2s;
   }
   .videobg button:hover {
     /* border: 2px solid whitesmoke; */
@@ -218,7 +218,7 @@ section {
     border: 1px solid white;
     border-radius: 30px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: box-shadow 0.2s;
   }
   .videobg2 button:hover {
     /* border: 2px solid whitesmoke; */
