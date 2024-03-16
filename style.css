@@ -12,6 +12,14 @@
     font-family: jost_light;
     src: url(fonts/Jost_light.ttf);
   }
+  @font-face {
+    font-family: louis;
+    src: url(Fonts/LouisVuitton-Medium.woff2);
+  }
+  @font-face {
+    font-family: louis-regular;
+    src: url(Fonts/LouisVuitton-Regular.woff2);
+  }
   body {
     margin: 0;
     padding: 0;
@@ -63,10 +71,12 @@
   color: black;
 }
 .navbar .brand {
-    font-family: saveurSans;
-    font-size: 1.8em;
+    font-family: louis;
+    word-spacing: 0.4px;
+    font-size: 32px;
     color: white;
     text-decoration: none;
+    font-weight: 800;
     transition: color 0.3s;
   }
 .navbar:hover .brand,
@@ -98,7 +108,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 125vh;
+    height: 100vh;
     overflow: hidden;
   }
   .video {
@@ -124,10 +134,10 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    color: white;
+    color: #fff;
     padding: 15px 40px;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(45px);
     border: 1px solid white;
@@ -155,7 +165,9 @@ section {
     cursor: pointer;
   }
   .container1 ul li{
-    font-family: jost_light;
+    font-family: louis-regular;
+    font-size: 16px;
+    letter-spacing: 0.4px;
     list-style: none;
   }
   .container1 ul li img{
@@ -212,7 +224,7 @@ section {
     color: rgb(255, 255, 255);
     padding: 15px 40px;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(45px);
     border: 1px solid white;
@@ -258,7 +270,7 @@ section {
     color: white;
     padding: 15px 40px;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(45px);
     border: 1px solid white;
@@ -347,7 +359,9 @@ section {
   width: 100%;
 }
 .container3 ul{
-  font-family: jost_light;
+  font-family: louis;
+  font-weight: 500 (medium);
+  color: #19110b;
   position: absolute;
 }
 .container3 ul li{
@@ -368,11 +382,12 @@ section {
 .last-logo{
   position: absolute;
   width: 140vh;
+  letter-spacing: 0.4px;
   text-align: center;
   justify-content: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: saveurSans;
-  font-size: 22px ;
+  font-family: louis;
+  font-size: 26px ;
 
 }
